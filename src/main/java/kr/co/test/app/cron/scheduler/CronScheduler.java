@@ -58,13 +58,6 @@ public class CronScheduler {
 	}
 	
 	private JobDataMap setDataMap() {
-		/*
-		 * Component 클래스 이므로 MyBatis 연동 시
-		 * 1. 서비스 레이어를 필드 주입으로 가지고 옴 (@Autowired)
-		 * 2. JobDataMap 에 넣어서 Job에 넘김
-		 * 3. Job 에서 로직 처리
-		 */
-		
 		JobDataMap dataMap = new JobDataMap();
 		
 		Map<String, Object> map = new HashMap<>();

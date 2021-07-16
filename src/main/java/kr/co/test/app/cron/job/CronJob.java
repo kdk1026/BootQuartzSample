@@ -1,4 +1,4 @@
-package kr.co.test.app.simple.job;
+package kr.co.test.app.cron.job;
 
 import org.quartz.Job;
 import org.quartz.JobDataMap;

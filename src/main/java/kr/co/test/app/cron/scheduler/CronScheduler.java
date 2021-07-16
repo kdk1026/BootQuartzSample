@@ -1,4 +1,4 @@
-package kr.co.test.app.simple.scheduler;
+package kr.co.test.app.cron.scheduler;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -19,7 +19,7 @@ import org.quartz.TriggerBuilder;
 import org.quartz.impl.StdSchedulerFactory;
 import org.springframework.stereotype.Component;
 
-import kr.co.test.app.simple.job.CronJob;
+import kr.co.test.app.cron.job.CronJob;
 
 /**
  * <pre>

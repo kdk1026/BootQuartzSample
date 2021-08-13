@@ -14,7 +14,7 @@ public class BootQuartzSampleApplication {
 	 * <pre>
 	 * {@link <a href="https://wky.kr/13">Ref</a>}
 	 * 
-	 * 시간 출력 시, UTC 시간으로 출력
+	 * 시간 출력 시, UTC 시간으로 출력을 KST로 변경
 	 *   - 아마 AWS 등 외국 인프라인 경우에 해당하는 듯
 	 *   
 	 *   - 단, 로그 시간에는 영향 없음... 실행 시, 옵션 필요

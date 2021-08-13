@@ -15,6 +15,10 @@ import org.springframework.context.ApplicationContext;
  * @see https://kongeebol.tistory.com/9
  */
 public class AppBeanUtils {
+	
+	private AppBeanUtils() {
+		super();
+	}
 
 	public static Object getBean(String bean) {
 		ApplicationContext applicationContext = ApplicationContextProvider.getCtx();
